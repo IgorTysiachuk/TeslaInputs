@@ -55,6 +55,7 @@ a{
     text-align: center;
     font-size: 62px;
     color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .main{
     width: 1232px;
@@ -237,7 +238,7 @@ a{
     margin-left: 52px;
 }
 body {
-    background: #F7F7FC;
+    background: #f8f8f8;
 }
 .cal {
     width: 816px;
@@ -366,4 +367,225 @@ letter-spacing: 0.005em;
 /* Light/Text Color/Body 2 */
 
 color: #9A9AB0;
+}
+.contentdown {
+    width: 100%;
+    background: #FFFFFF;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border-radius: 8px;
+}
+.contentdown > img {
+    height: 90%;
+    margin-top: 72px;
+    
+}
+.rightcon {
+    height: 517px;
+    width: 600px;
+    margin-top: 100px;
+}
+.rightcon > p {
+    margin-top: 50px;
+    margin-left: 20px;
+
+    /* Heading/H2 Bold */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    /* identical to box height, or 58px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Title */
+
+    color: #11142D;
+}
+.rightcon > h1 { 
+
+    /* Body/Body 1 Regular */
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Body 1 */
+
+    color: #92929D;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.rightcon > ul {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.rightcon > ul > li > p {
+
+    /* Heading/H6 Bold */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+    letter-spacing: 0.005em;
+
+    /* Light/Text Color/Title */
+
+    color: #11142D;
+}
+.btns {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 40px;
+    column-gap: 30px;
+}
+.btnadd {
+    width: 100%;
+    height: 480px;
+}
+.btnadd > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #11142D;
+    padding-top: 134px;
+}
+.btnadd > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #92929D;
+    margin-top: 24px;
+
+}
+.btnadd > div {
+    display: flex;
+    width: 100%;
+    height: 56px;
+    margin-top: 56px;
+    justify-content: center;
+    column-gap: 40px;
+}
+.byn1 {
+    width: 192px;
+    height: 56px;
+    background: #FA3C45;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+    border: none;
+}
+.byn2 {
+    width: 156px;
+    height: 56px;
+    border: 2px solid #FA3C45;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.005em;
+    color: #FA3C45;
+}
+
+footer{
+    width: 100%;
+    height: 407px;
+    background: rgba(197, 1, 10, 1);
+    display: flex;
+    justify-content: center;
+}
+footer > * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header2{
+    display: flex;
+    padding-top: 50px;
+    height: 333px;
+    width: 1154px;
+    background: rgba(197, 1, 10, 1);
+    margin-left: 104px;
+    margin-right: 200px;
+
+
+}
+.Our{
+    width: 196px;
+    height: 72px;
+    color: white;
+}
+.Copy{
+    margin-top: 178px;
+    color: white;
+}
+.colm2{
+    margin-left: 240px;
+    width: 84px;
+    height: 210px;
+    color: #fff;
+    flex-wrap: nowrap;
+
+}
+.colm2 > * {
+    margin-top: 20px;
+}
+.colm3 > * {
+    margin-top: 20px;
+}
+.co{
+    margin-left: 300px;
+}
+.colm3{
+    margin-left: 160px;
+    color: #fff;
+}
+.Contacts{
+    margin-left: 160px;
+    margin-top: 20px;
+    width: 255px;
+    height: 104px;
+    color: #fff;
+}
+
+.texthead{
+    margin-top: 80px;
+    margin-left: 104px;
+    letter-spacing: 0.005em;
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 104px 48px 104px;
 }
